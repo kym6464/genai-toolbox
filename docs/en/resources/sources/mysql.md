@@ -27,14 +27,14 @@ MySQL user][mysql-users] to login to the database with.
 
 ```yaml
 sources:
-  my-mysql-source:
-    kind: mysql
-    host: 127.0.0.1
-    port: 3306
-    database: my_db
-    user: ${USER_NAME}
-    password: ${PASSWORD}
-    queryTimeout: 30s # Optional: query timeout duration
+    my-mysql-source:
+        kind: mysql
+        host: 127.0.0.1
+        port: 3306
+        database: my_db
+        user: ${USER_NAME}
+        password: ${PASSWORD}
+        queryTimeout: 30s # Optional: query timeout duration
 ```
 
 {{< notice tip >}}
